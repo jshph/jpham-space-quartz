@@ -9,12 +9,6 @@ export interface ColorScheme {
   highlight: string
   textHighlight: string
 }
-
-interface Colors {
-  lightMode: ColorScheme
-  darkMode: ColorScheme
-}
-
 export interface Theme {
   typography: {
     header: string
@@ -22,11 +16,11 @@ export interface Theme {
     code: string
   }
   cdnCaching: boolean
-  colors: Colors
+  colors: ColorScheme
   fontOrigin: "googleFonts" | "local"
 }
 
-export type ThemeKey = keyof Colors
+export type ThemeKey = keyof ColorScheme
 
 const DEFAULT_SANS_SERIF =
   '-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif'
@@ -42,31 +36,19 @@ export function joinStyles(theme: Theme, ...stylesheet: string[]) {
 ${stylesheet.join("\n\n")}
 
 :root {
-  --light: ${theme.colors.lightMode.light};
-  --lightgray: ${theme.colors.lightMode.lightgray};
-  --gray: ${theme.colors.lightMode.gray};
-  --darkgray: ${theme.colors.lightMode.darkgray};
-  --dark: ${theme.colors.lightMode.dark};
-  --secondary: ${theme.colors.lightMode.secondary};
-  --tertiary: ${theme.colors.lightMode.tertiary};
-  --highlight: ${theme.colors.lightMode.highlight};
-  --textHighlight: ${theme.colors.lightMode.textHighlight};
+  --light: ${theme.colors.light};
+  --lightgray: ${theme.colors.lightgray};
+  --gray: ${theme.colors.gray};
+  --darkgray: ${theme.colors.darkgray};
+  --dark: ${theme.colors.dark};
+  --secondary: ${theme.colors.secondary};
+  --tertiary: ${theme.colors.tertiary};
+  --highlight: ${theme.colors.highlight};
+  --textHighlight: ${theme.colors.textHighlight};
 
   --headerFont: "${theme.typography.header}", ${DEFAULT_SANS_SERIF};
   --bodyFont: "${theme.typography.body}", ${DEFAULT_SANS_SERIF};
   --codeFont: "${theme.typography.code}", ${DEFAULT_MONO};
-}
-
-:root[saved-theme="dark"] {
-  --light: ${theme.colors.darkMode.light};
-  --lightgray: ${theme.colors.darkMode.lightgray};
-  --gray: ${theme.colors.darkMode.gray};
-  --darkgray: ${theme.colors.darkMode.darkgray};
-  --dark: ${theme.colors.darkMode.dark};
-  --secondary: ${theme.colors.darkMode.secondary};
-  --tertiary: ${theme.colors.darkMode.tertiary};
-  --highlight: ${theme.colors.darkMode.highlight};
-  --textHighlight: ${theme.colors.darkMode.textHighlight};
 }
 `
 }
