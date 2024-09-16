@@ -1,26 +1,3 @@
----
-alias: Huia Come Home Highlights
----
-# Huia Come Home
-
-![rw-book-cover](https://m.media-amazon.com/images/I/6136+jehpuL._SY160.jpg)
->[!note]- Readwise Information
->Author:: [[J. Ruka]]
->Title:: Huia Come Home
->Type:: #Readwise/category/books
->Last-Highlighted-Date:: [[2024-04-19]]
->Link:: https://readwise.io/bookreview/39760350
->Readwise-Source:: #Readwise/source/kindle
----
-## Linked Notes from Around My Vault
-```dataview
-LIST
-FROM [[Huia Come Home by J. Ruka Highlights]]
-```
----
-
-
-
 ## Highlights
 
 Explored the idea that Christianity is full of amnesiacs due to the sign of being dogmatic

@@ -1,24 +1,3 @@
----
-alias: Can You Drink the Cup? Highlights
----
-# Can You Drink the Cup?
-
-![rw-book-cover](https://m.media-amazon.com/images/I/91ybvaTSihL._SY160.jpg)
->[!note]- Readwise Information
->Author:: [[Henri J. M. Nouwen]]
->Title:: Can You Drink the Cup?
->Type:: #Readwise/category/books
->Last-Highlighted-Date:: [[2024-05-30]]
->Link:: https://readwise.io/bookreview/41048689
->Readwise-Source:: #Readwise/source/kindle
----
-## Linked Notes from Around My Vault
-```dataview
-LIST
-FROM [[Can You Drink the Cup? by Henri J. M. Nouwen Highlights]]
-```
----
-
 ## Highlights
 - One thing I learned from it all: drinking wine is more than just drinking. You have to know what you are drinking, and you have to be able to talk about it. Similarly, just living life is not enough. We must know what we are living. A life that is not reflected upon isn't worth living. [Location 197](https://readwise.io/to_kindle?action=open&asin=B01MZZWGVV&location=197) [[2024-05-30]]
    ^rw726891503

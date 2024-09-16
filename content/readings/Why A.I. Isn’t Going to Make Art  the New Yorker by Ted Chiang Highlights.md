@@ -1,12 +1,4 @@
-# Why A.I. Isn’t Going to Make Art | the New Yorker
-
-![rw-book-cover](https://media.newyorker.com/photos/66d2199a855934acb4b4bfca/16:9/w_1280,c_limit/RoombaTest_final.png)
->[!note]- Readwise Information
->Author:: [[Ted Chiang]]
->Title:: Why A.I. Isn’t Going to Make Art | the New Yorker
->Last-Highlighted-Date:: [[2024-09-02]]
->Readwise-Source:: #Readwise/source/reader
->Source-URL:: https://www.newyorker.com/culture/the-weekend-essay/why-ai-isnt-going-to-make-art
+https://www.newyorker.com/culture/the-weekend-essay/why-ai-isnt-going-to-make-art
 
 ## Highlights
 - When you are writing fiction, you are—consciously or unconsciously—making a choice about almost every word you type; to oversimplify, we can imagine that a ten-thousand-word short story requires something on the order of ten thousand choices. When you give a generative-A.I. program a prompt, you are making very few choices; if you supply a hundred-word prompt, you have made on the order of a hundred choices. [View Highlight](https://read.readwise.io/read/01j6sp3qsgwy6z50skaqcz07nj) [[2024-09-02]]

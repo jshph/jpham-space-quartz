@@ -1,12 +1,3 @@
-# Words Are My Matter
-
-![rw-book-cover](https://images-na.ssl-images-amazon.com/images/I/41QoWMktt8L._SL200_.jpg)
->[!note]- Readwise Information
->Author:: [[Ursula K. Le Guin]]
->Title:: Words Are My Matter
->Last-Highlighted-Date:: [[2024-09-08]]
->Readwise-Source:: #Readwise/source/manual
-
 ## Highlights
 - Books are social vectors, but publishers have been slow to see it. They barely even noticed book clubs until Oprah goosed them. But then, the stupidity of the contemporary corporation-owned publishing company is fathomless: they think they can sell books as commodities. [Page 69](None) [[2024-09-08]]
   

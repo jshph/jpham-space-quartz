@@ -1,12 +1,4 @@
-# Dynamic documents as personal software
-
-![rw-book-cover](https://www.inkandswitch.com/potluck/static/coffee.jpg)
->[!note]- Readwise Information
->Author:: [[inkandswitch.com]]
->Title:: Dynamic documents as personal software
->Last-Highlighted-Date:: [[2024-07-26]]
->Readwise-Source:: #Readwise/source/reader
->Source-URL:: https://www.inkandswitch.com/potluck/
+https://www.inkandswitch.com/potluck/
 
 ## Highlights
 - We’ve found that starting with freeform documents promotes a wide variety of use cases. Existing notes can serve as inspiration, rather than trying to build applications from a blank slate. We’ve also found that barebones text-based UIs are sufficient for many personal use cases, without the need for a full layout design. [View Highlight](https://read.readwise.io/read/01j3r6jcce6e0e8afsdn9my82e) [[2024-07-26]]

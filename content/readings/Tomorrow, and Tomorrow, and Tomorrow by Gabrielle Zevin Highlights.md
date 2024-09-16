@@ -1,12 +1,3 @@
-# Tomorrow, and Tomorrow, and Tomorrow
-
-![rw-book-cover](https://m.media-amazon.com/images/I/91oJwAIxGhL._SY160.jpg)
->[!note]- Readwise Information
->Author:: [[Gabrielle Zevin]]
->Title:: Tomorrow, and Tomorrow, and Tomorrow
->Last-Highlighted-Date:: [[2024-06-30]]
->Readwise-Source:: #Readwise/source/kindle
-
 ## Highlights
 - “Well, this is entirely up to you,” Sharyn said. “But the nurse wondered if you might come back tomorrow to talk to Sam again.” Before Sadie had time to respond, Sharyn added, “I know you have to do community service for your Bat Mitzvah next year, and I’m sure this would probably count.” To allow yourself to play with another person is no small risk. It means allowing yourself to be open, to be exposed, to be hurt. It is the human equivalent of the dog rolling on its back—I know you won’t hurt me, even though you can. It is the dog putting its mouth around your hand and never biting down. To play requires trust and love. [Location 455](https://readwise.io/to_kindle?action=open&asin=B09JBCGQB8&location=455) [[2024-06-30]]
    ^rw741430004
@@ -53,15 +44,6 @@
 - As Sadie would put it in an interview with Wired, “The game character, like the self, is contextual.” In Koreatown, no one ever thought Sam was Korean. In Manhattan, no one had ever thought he was white. In Los Angeles, he was the “white cousin.” In New York, he was that “little Chinese kid.” And yet, in K-town, he felt more Korean than he ever had before. Or to put a finer point on it, he felt more aware of the fact that he was a Korean and that that was not necessarily a negative or even a neutral fact about him. The awareness gave him pause: perhaps a funny-looking mixed-race kid could exist at the center of the world, not just on its periphery. [Location 1425](https://readwise.io/to_kindle?action=open&asin=B09JBCGQB8&location=1425) [[2024-07-26]]
   
   ^rw752883304
-
-# Tomorrow, and Tomorrow, and Tomorrow
-
-![rw-book-cover](https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/200800000/fDUfYxh9qwh1xoXR56ibz_z0yO40IvVRlh6rZf7RY80-cove_72aFIAZ.jpg)
->[!note]- Readwise Information
->Author:: [[Gabrielle Zevin]]
->Title:: Tomorrow, and Tomorrow, and Tomorrow
->Last-Highlighted-Date:: [[2024-08-02]]
->Readwise-Source:: #Readwise/source/reader
 
 ## Highlights
 - But I saw what she and Sammy [Masur, programmer and designer, *Ichigo*] were trying to do, and it seemed really special to me, and like something I wanted to be involved with. I thought that Ulysses could help them. Listen, Ulysses shouldn’t take away from anything Sadie and Sammy did. The amount of work those two kids did was astounding. I cite them as an example to my students of how much two kids and a couple of computers can get done on their own. Game companies have gotten too big and impersonal. You have ten guys doing texture layers, and ten guys doing modeling and ten guys doing backgrounds, and someone else is writing the story, and someone else is writing the dialogue, and literally, no one ever talks to each oth [View Highlight](https://read.readwise.io/read/01j48cpwpg6zdpvhtjd976ffdt) [[2024-08-02]]

@@ -1,27 +1,3 @@
----
-alias: The Creative Act Highlights
----
-# The Creative Act
-
-![rw-book-cover](https://m.media-amazon.com/images/I/A1OlSDr1xgL._SY160.jpg)
->[!note]- Readwise Information
->Author:: [[Rick Rubin]]
->Title:: The Creative Act
->Type:: #Readwise/category/books
->Last-Highlighted-Date:: [[2023-08-11]]
->Link:: https://readwise.io/bookreview/31070336
->Readwise-Source:: #Readwise/source/kindle
->Related-To::
->Tags::
->Review-for-Repurpose::
----
-## Linked Notes from Around My Vault
-```dataview
-LIST
-FROM [[The Creative Act by Rick Rubin Highlights]]
-```
----
-
 ## Highlights
 - If you have an idea you’re excited about and you don’t bring it to life, it’s not uncommon for the idea to find its voice through another maker. This isn’t because the other artist stole your idea, but because the idea’s time has come. [Location 154](https://readwise.io/open/578351095) [[2023-08-10]]
   
