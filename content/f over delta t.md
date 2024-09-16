@@ -1,6 +1,7 @@
 ---
 tags:
 - ecology-of-technology
+created: '[[2024-09-12]]'
 ---
 
 Technology profoundly influences our relationships, sparks creativity, and challenges our quest for authenticity. It offers powerful tools while urging us to examine our values and connections.

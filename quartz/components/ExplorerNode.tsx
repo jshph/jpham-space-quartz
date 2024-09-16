@@ -51,7 +51,8 @@ export class FileNode {
   constructor(slugSegment: string, displayName?: string, file?: QuartzPluginData, depth?: number) {
     this.children = []
     this.name = slugSegment
-    this.displayName = displayName ?? file?.frontmatter?.title ?? slugSegment
+    const created = file?.frontmatter?.created?.replaceAll('[[', '').replaceAll(']]', '')
+    this.displayName = displayName ?? `${created}: ${file?.frontmatter?.title ?? slugSegment}`
     this.file = file ? clone(file) : null
     this.depth = depth ?? 0
   }
@@ -170,14 +171,15 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
   // Calculate current folderPath
   const folderPath = node.name !== "" ? joinSegments(fullPath ?? "", node.name) : ""
   const href = resolveRelative(fileData.slug!, folderPath as SimpleSlug) + "/"
-
+  const datePart = node.displayName.split(":")[0]
+  const titlePart = node.displayName.split(":")[1]
   return (
     <>
       {node.file ? (
         // Single file node
         <li key={node.file.slug}>
           <a href={resolveRelative(fileData.slug!, node.file.slug!)} data-for={node.file.slug}>
-            {node.displayName}
+            <span style={{ color: "var(--secondary)" }}>{datePart}:</span> {titlePart}
           </a>
         </li>
       ) : (

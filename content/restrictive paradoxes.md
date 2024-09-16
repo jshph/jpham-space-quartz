@@ -1,3 +1,7 @@
+---
+created: '[[2024-09-12]]'
+---
+
 The relationship between creativity, technology, and authenticity creates a paradox, especially with the rise of generative tools. While these technologies promise to make creative expression more accessible, they risk undermining the depth and individuality that make art meaningful. The idea that generative AI can "unleash creativity" often overlooks the personal journey of creation, reducing it to simple output.
 
 Ted Chiang emphasizes that an artist's process is defined by countless choices that shape their work, a nuance often overlooked by AI, which generates art or text within a narrow framework. This limitation raises the question of whether true creativity can emerge from such constrained engagement. The essence of artistry lies in the interplay of small choices and larger visions, underscoring that creativity demands effort and intention, not merely inspiration ![[Why A.I. Isn’t Going to Make Art  the New Yorker by Ted Chiang Highlights#^rw766640848]] ![[Why A.I. Isn’t Going to Make Art  the New Yorker by Ted Chiang Highlights#^rw766639438]]. This call for intentionality aligns with Rick Rubin’s reflections on creativity, which highlight that while technology can provide tools, it is our choices and interpretations that ultimately infuse life into our work ![[The Creative Act by Rick Rubin Highlights#^rw599453248]].

@@ -1,3 +1,8 @@
+---
+created: '[[2024-09-10]]'
+---
+
+
 - **Corporate Mindset**: Big companies often miss the mark on surprise and delight. They get too caught up in features and roadmaps, losing sight of what really matters to users.
 
 - **First Mile Matters**: The first experience users have is crucial. They want to feel successful right off the bat, even if they’re a bit lazy or selfish. Ironically, the final mile of a product launch often relies on defaults, which can refresh the experience. But as products grow, they tend to focus more on power users, leaving early adopters in the dust. The solution? Keep investing time in that first mile experience.
