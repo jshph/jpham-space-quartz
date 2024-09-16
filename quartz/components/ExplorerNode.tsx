@@ -52,7 +52,7 @@ export class FileNode {
     this.children = []
     this.name = slugSegment
     const created = file?.frontmatter?.created?.replaceAll('[[', '').replaceAll(']]', '')
-    this.displayName = displayName ?? `${created}: ${file?.frontmatter?.title ?? slugSegment}`
+    this.displayName = displayName ?? `${created ? created + ": " : ""}${file?.frontmatter?.title ?? slugSegment}`
     this.file = file ? clone(file) : null
     this.depth = depth ?? 0
   }
@@ -171,15 +171,17 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
   // Calculate current folderPath
   const folderPath = node.name !== "" ? joinSegments(fullPath ?? "", node.name) : ""
   const href = resolveRelative(fileData.slug!, folderPath as SimpleSlug) + "/"
-  const datePart = node.displayName.split(":")[0]
-  const titlePart = node.displayName.split(":")[1]
+  const split = node.displayName.split(":")
+  const datePart = split.length > 1 ? split[0] : undefined
+  const titlePart = split.length > 1 ? split[1] : node.displayName
   return (
     <>
       {node.file ? (
         // Single file node
         <li key={node.file.slug}>
           <a href={resolveRelative(fileData.slug!, node.file.slug!)} data-for={node.file.slug}>
-            <span style={{ color: "var(--secondary)" }}>{datePart}:</span> {titlePart}
+            {datePart && <span style={{ color: "var(--secondary)" }}>{datePart}: </span>}
+            {titlePart}
           </a>
         </li>
       ) : (
