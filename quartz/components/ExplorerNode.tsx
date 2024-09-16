@@ -170,16 +170,17 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
 
   // Calculate current folderPath
   const folderPath = node.name !== "" ? joinSegments(fullPath ?? "", node.name) : ""
-  const href = resolveRelative(fileData.slug!, folderPath as SimpleSlug) + "/"
+  const href = resolveRelative(fileData.slug!, folderPath as SimpleSlug)
   const split = node.displayName.split(":")
   const datePart = split.length > 1 ? split[0] : undefined
   const titlePart = split.length > 1 ? split[1] : node.displayName
+
   return (
     <>
       {node.file ? (
         // Single file node
         <li key={node.file.slug}>
-          <a href={resolveRelative(fileData.slug!, node.file.slug!)} data-for={node.file.slug}>
+          <a href={"/" + resolveRelative(fileData.slug!, node.file.slug!)} data-for={node.file.slug}>
             {datePart && <span style={{ color: "var(--secondary)" }}>{datePart}: </span>}
             {titlePart}
           </a>
