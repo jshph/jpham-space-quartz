@@ -24,7 +24,6 @@ export const Readwise: QuartzTransformerPlugin<Partial<Options>> = (userOpts) =>
                       textNode.value.startsWith("Page")) {
                     textNode.value = ""; // Remove the node value
                   }
-                  console.log(textNode)
                 });
               }
             });

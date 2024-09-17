@@ -14,6 +14,7 @@ const defaultOptions = {
   folderClickBehavior: "collapse",
   folderDefaultState: "collapsed",
   useSavedState: true,
+  reverseDateSort: true,
   mapFn: (node) => {
     return node
   },
@@ -22,7 +23,7 @@ const defaultOptions = {
     if ((!a.file && !b.file) || (a.file && b.file)) {
       // numeric: true: Whether numeric collation should be used, such that "1" < "2" < "10"
       // sensitivity: "base": Only strings that differ in base letters compare as unequal. Examples: a ≠ b, a = á, a = A
-      return a.displayName.localeCompare(b.displayName, undefined, {
+      return b.displayName.localeCompare(a.displayName, undefined, {
         numeric: true,
         sensitivity: "base",
       })
