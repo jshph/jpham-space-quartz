@@ -7,7 +7,9 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   afterBody: [],
   footer: Component.Footer({
-    links: {},
+    links: {
+      "jpham.space": "https://jpham.space",
+    },
   }),
 }
 
