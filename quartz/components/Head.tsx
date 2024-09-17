@@ -32,10 +32,10 @@ export default (() => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
-        {cfg.baseUrl && <meta property="og:image" content={ogImagePath} />}
+        {/* {cfg.baseUrl && <meta property="og:image" content={ogImagePath} />} */}
         <meta property="og:width" content="1200" />
         <meta property="og:height" content="675" />
-        <link rel="icon" href={iconPath} />
+        <link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><text y='15' font-size='15'>🌿</text></svg>" />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
         {css.map((href) => (
