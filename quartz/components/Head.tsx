@@ -6,7 +6,12 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 
 export default (() => {
   const Head: QuartzComponent = ({ cfg, fileData, externalResources }: QuartzComponentProps) => {
-    const title = fileData.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title
+    let title = fileData.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title
+
+    if (title === "index") {
+      title = "home"
+    }
+
     const description =
       fileData.description?.trim() ?? i18n(cfg.locale).propertyDefaults.description
     const { css, js } = externalResources
@@ -20,7 +25,7 @@ export default (() => {
 
     return (
       <head>
-        <title>{title}</title>
+        <title>{`pollen enzymes - ${title}`}</title>
         <meta charSet="utf-8" />
         {cfg.theme.cdnCaching && cfg.theme.fontOrigin === "googleFonts" && (
           <>
@@ -30,7 +35,7 @@ export default (() => {
           </>
         )}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta property="og:title" content={title} />
+        <meta property="og:title" content={`pollen enzymes - ${title}`} />
         <meta property="og:description" content={description} />
         {/* {cfg.baseUrl && <meta property="og:image" content={ogImagePath} />} */}
         <meta property="og:width" content="1200" />
