@@ -9,6 +9,6 @@ The conversation around Twitter Blue highlights a shift towards catering to powe
 
 The misalignment of incentives in news and music is striking; both fields grapple with the challenge of maintaining integrity amidst subscription fatigue. Generative AI introduces an abstraction layer, offering information without the traffic chase, yet the need for new business models remains critical to respect publishers and their brands.
 
-In music, people seek connection, not just a summary. An abstract digest fails to deliver real value because it overlooks the human experience. Music is about catharsis and shared moments, not merely answering questions. The same applies to #enzyme. As storytelling tools become more accessible, the collaborative nature of music creation could face disruption. ^tuynq3
+In music, people seek connection, not just a summary. An abstract digest fails to deliver real value because it overlooks the human experience. Music is about catharsis and shared moments, not merely answering questions. The same applies to #enzyme. ^tuynq3
 
 https://share.snipd.com/episode/bda6fb3d-8be8-43d3-9218-e6e0bd147623
