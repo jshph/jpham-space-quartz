@@ -8,7 +8,7 @@ import { visit } from "unist-util-visit"
 import { Root, Element, ElementContent } from "hast"
 import { GlobalConfiguration } from "../cfg"
 import { i18n } from "../i18n"
-import { Analytics } from "@vercel/analytics/react"
+import { inject } from "@vercel/analytics"
 
 interface RenderComponents {
   head: QuartzComponent
@@ -213,12 +213,13 @@ export function renderPage(
     </div>
   )
 
+  inject()
+
   const lang = componentData.fileData.frontmatter?.lang ?? cfg.locale?.split("-")[0] ?? "en"
   const doc = (
     <html lang={lang}>
       <Head {...componentData} />
       <body data-slug={slug}>
-        <Analytics />
         <div id="quartz-root" class="page">
           <Body {...componentData}>
             {LeftComponent}
