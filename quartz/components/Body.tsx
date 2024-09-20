@@ -29,7 +29,7 @@ const Body: QuartzComponent = ({ children }: QuartzComponentProps) => {
             return (
               <div key={i} style={{
                 position: 'absolute',
-                width: `${100 + Math.random() * 200}px`, // Randomize size
+                width: `${Math.random() * 13 + 5}%`, // Randomize size
                 left: `${Math.random() * 100}%`,
                 animation: `sway ${1 + Math.random() * 5}s infinite ease-in-out`,
                 animationDelay: `${-Math.random() * 5}s`,
