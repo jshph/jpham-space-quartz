@@ -8,6 +8,7 @@ import { visit } from "unist-util-visit"
 import { Root, Element, ElementContent } from "hast"
 import { GlobalConfiguration } from "../cfg"
 import { i18n } from "../i18n"
+import { Analytics } from "@vercel/analytics/react"
 
 interface RenderComponents {
   head: QuartzComponent
@@ -217,6 +218,7 @@ export function renderPage(
     <html lang={lang}>
       <Head {...componentData} />
       <body data-slug={slug}>
+        <Analytics />
         <div id="quartz-root" class="page">
           <Body {...componentData}>
             {LeftComponent}
