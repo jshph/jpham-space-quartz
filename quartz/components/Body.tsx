@@ -23,27 +23,32 @@ const Body: QuartzComponent = ({ children }: QuartzComponentProps) => {
           height: '120%',
           animation: 'sway 3s infinite ease-in-out'
         }}>
-          {[...Array(50)].map((_, i) => (
-            <div key={i} style={{
-              position: 'absolute',
-              width: '30%',
-              height: '10%',
-              left: `${Math.random() * 70}%`,
-              top: `${50+ Math.random() * 30}%`,
-              animation: `sway ${1 + Math.random() * 5}s infinite ease-in-out`,
-              animationDelay: `${-Math.random() * 5}s`
-            }}>
-              <svg style={{
-                width: '100%',
-                height: '100%',
-                opacity: 0.2,
-                fill: `rgb(0, ${Math.random() * 50}, 0)`
-              }} viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                <path d={`M${10 + Math.random() * 20} ${80 + Math.random() * 10} L${20 + Math.random() * 20} ${60 + Math.random() * 10} L${30 + Math.random() * 20} ${80 + Math.random() * 10} L${40 + Math.random() * 20} ${60 + Math.random() * 10} L${50 + Math.random() * 20} ${80 + Math.random() * 10} Z`} />
-                <path d={`M${50 + Math.random() * 20} ${80 + Math.random() * 10} L${60 + Math.random() * 20} ${50 + Math.random() * 10} L${70 + Math.random() * 20} ${80 + Math.random() * 10} L${80 + Math.random() * 20} ${50 + Math.random() * 10} L${90 + Math.random() * 20} ${80 + Math.random() * 10} Z`} />
-              </svg>
-            </div>
-          ))}
+          {[...Array(40)].map((_, i) => { // Increase number of ferns
+            const fernNumber = Math.floor(Math.random() * 4);
+            const green = Math.floor(128 + Math.random() * 128); // Randomize green value
+            return (
+              <div key={i} style={{
+                position: 'absolute',
+                width: `${100 + Math.random() * 200}px`, // Randomize size
+                left: `${Math.random() * 100}%`,
+                animation: `sway ${1 + Math.random() * 5}s infinite ease-in-out`,
+                animationDelay: `${-Math.random() * 5}s`,
+                top: `${60 + Math.random() * 30}%`,
+                transform: `rotate(${Math.random() * 360}deg)`, // Random rotation
+                opacity: 0.1 + Math.random() * 0.9, // Randomize opacity
+              }}>
+                <img 
+                  src={`/static/fern_${fernNumber}.svg`} 
+                  alt="Fern" 
+                  style={{ 
+                    width: '100%', 
+                    height: '100%',
+                    filter: `invert(1) saturate(100%) hue-rotate(${green}deg) brightness(0.15)`,
+                  }} 
+                />
+              </div>
+            );
+          })}
         </div>
       </div>
       {children}
